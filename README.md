@@ -23,3 +23,7 @@ Divirta-se!
 para fazer requisições basta mandar as querys na url
 
 exemplos: http://localhost:8080/?name=lucas
+
+e para inicializar o projeto basta executar o comando 
+
+npm run prod
