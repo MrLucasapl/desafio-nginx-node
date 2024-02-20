@@ -40,7 +40,7 @@ services:
           "--password=${MYSQL_ROOT_PASSWORD}",
           "ping",
           "-h",
-          "localhost",
+          "db",
         ]
       interval: 10s
       timeout: 5s
