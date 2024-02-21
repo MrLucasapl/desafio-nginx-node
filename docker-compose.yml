@@ -12,6 +12,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    volumes:
+      - .:/server-node
     container_name: service-node-expess
     restart: always
     tty: true
