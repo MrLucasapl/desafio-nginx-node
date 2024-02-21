@@ -14,6 +14,7 @@ services:
         condition: service_healthy
     volumes:
       - .:/server-node
+      - /server-node/node_modules
     container_name: service-node-expess
     restart: always
     tty: true
